@@ -36,8 +36,8 @@ allprojects {
     }
 
     dependencies {
-//    api(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-        compileOnly("org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT")
+    api(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+//        compileOnly("org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT")
 
     }
 
